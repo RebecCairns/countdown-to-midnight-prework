@@ -7,7 +7,7 @@ def countdown(times)
   end   
   return "HAPPY NEW YEAR!"
 end
-def countdown_with_sleep (num)
+def countdown_with_sleep(num)
   while num>0 
      puts "Please enter"
      answer = gets.chomp
